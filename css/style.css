@@ -721,3 +721,26 @@ div.centralnew h3{
 	text-align:justify;
 	color:#535353;
 }
+section#columns div.large{
+	width:100%;
+	padding:0 10px 0 0;
+	float:left;
+	border-right:none;
+}
+section#columns div.large div.pie{
+	width:25%;
+	height:auto;
+	float:left;
+	padding-right:5px;
+	box-sizing:border-box;
+}
+section#columns div.large div.last{
+	padding-right:0px;
+	box-sizing:border-box;
+}
+section#columns  div.large div.pie h3{
+	font-size:16px;
+	color:#305d9e;
+	font-weight:bold;
+	font-family: 'Noticia Text', serif;
+}
